@@ -1,0 +1,287 @@
+body {
+  font-family: 'Roboto', sans-serif;
+
+}
+.kartu{
+  border-radius: 10px;
+  overflow: hidden;
+}
+.gambar{
+  transition: 700ms;
+}
+.gambar:hover{
+  transform: scale(1.1);
+  border-radius: 10px;
+
+}
+.gambaar1{
+  border-radius: 10px;
+  overflow: hidden;
+}
+.username:focus{
+  outline: transparent;
+}
+
+
+.navbar-atas {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.navbarlogo {
+  color: black;
+  
+}
+.logoimg h4 {
+  display: inline;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+.navbarlogo:hover a {
+  text-decoration: none !important;
+}
+.bg-navbar {
+  background-color:#ecf0f1;
+  
+}
+
+.userkanan p {
+  display: inline;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-right: 15px;
+  
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.nav-link {
+  display: inline;
+  padding: 0 !important;
+  text-decoration: none !important;
+  color: #030005 !important;
+}
+
+.judul {
+  padding-top: 40px;
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+  
+}
+
+.judul h2 {
+  font-size: 50px;
+}
+
+.cardmovie {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.footer-bg {
+  background-color:#95a5a6;
+  
+  padding-bottom: 20px;
+}
+
+.heading-admin {
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+footer {
+  color: aliceblue;
+}
+
+.buttonadmin {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.loginpage {
+  padding-top: 150px;
+  background-color: ghostwhite;
+  height: 750px;
+}
+
+.judullogin {
+  text-align: center;
+  padding-bottom: 30px;
+ 
+  font-family: 'Bebas Neue', cursive;
+}
+
+.judullogin h2{
+  font-size: 50px;
+}
+
+.bg-movie {
+  background-color:#f5f6fa;
+}
+
+
+.darken {
+  box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.4);
+  
+}
+.moviedetail {
+  padding-top: 20px;
+  color: aliceblue;
+}
+
+.moviedetail img {
+  padding-top: 10px;
+}
+.judltitle {
+  padding-top: 70px;
+  text-align: left;
+}
+
+.judltitle h3 {
+  color: black;
+  padding-top: 25px;
+}
+
+
+.judltitle p {
+  color: black;
+  text-align: justify;
+  padding-top: 10px;
+}
+
+.imgplay {
+  padding-top: 150px;
+  transition: 700ms;
+}
+
+.imgplay:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  
+}
+
+.director {
+  padding-bottom: 20px;
+  color: black;
+}
+
+.director h6 {
+  display: inline;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+
+
+
+#notfound {
+  position: relative;
+  height: 590px;
+  background: #030005;
+}
+
+#notfound .notfound {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.notfound {
+  max-width: 767px;
+  width: 100%;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.notfound .notfound-404 {
+  position: relative;
+  height: 180px;
+  margin-bottom: 20px;
+  z-index: -1;
+}
+
+.notfound .notfound-404 h1 {
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50% , -50%);
+      -ms-transform: translate(-50% , -50%);
+          transform: translate(-50% , -50%);
+  font-size: 224px;
+  font-weight: 900;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: -12px;
+  color: #030005;
+  text-transform: uppercase;
+  text-shadow: -1px -1px 0px #8400ff, 1px 1px 0px #ff005a;
+  letter-spacing: -20px;
+}
+
+
+.notfound .notfound-404 h2 {
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 110px;
+  font-size: 42px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 0px 2px 0px #8400ff;
+  letter-spacing: 13px;
+  margin: 0;
+}
+
+.notfound a {
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #ff005a;
+  text-decoration: none;
+  border: 2px solid;
+  background: transparent;
+  padding: 10px 40px;
+  font-size: 14px;
+  font-weight: 700;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.notfound a:hover {
+  color: #8400ff;
+}
+
+@media only screen and (max-width: 767px) {
+    .notfound .notfound-404 h2 {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+  .notfound .notfound-404 h1 {
+      font-size: 182px;
+  }
+}
+
+
+
+.belitiketimg {
+  padding-top: 40px;
+  padding-bottom: 25px;
+}
+
+.settinguser {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 400px;
+  margin-right: 400px;
+}

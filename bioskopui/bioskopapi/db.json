@@ -1,0 +1,406 @@
+{
+  "users": [
+    {
+      "password": "admin",
+      "username": "admin",
+      "role": "admin",
+      "id": 1
+    },
+    {
+      "password": "aris",
+      "username": "aris",
+      "role": "user",
+      "id": 4
+    },
+    {
+      "password": "123",
+      "username": "surya",
+      "role": "user",
+      "id": 5
+    },
+    {
+      "username": "user",
+      "password": "user",
+      "cart": [],
+      "role": "user",
+      "id": 6
+    },
+    {
+      "username": "jancuk",
+      "password": "jancuk",
+      "cart": [],
+      "role": "user",
+      "id": 7
+    },
+    {
+      "password": "123",
+      "username": "jan",
+      "role": "user",
+      "id": 8
+    },
+    {
+      "username": "rusdiati",
+      "password": "aris",
+      "cart": [],
+      "role": "user",
+      "id": 9
+    },
+    {
+      "username": "name",
+      "password": "name",
+      "role": "user",
+      "id": 10
+    },
+    {
+      "username": "apa",
+      "password": "123",
+      "role": "user",
+      "id": 11
+    }
+  ],
+  "studios": [
+    {
+      "nama": "Studio Ambyar Kabeh",
+      "jumlahKursi": "250",
+      "id": 1
+    },
+    {
+      "nama": "Studio Bubar ambyar",
+      "jumlahKursi": "250",
+      "id": 2
+    },
+    {
+      "nama": "Studio Kunkainap",
+      "jumlahKursi": "240",
+      "id": 3
+    },
+    {
+      "nama": "Studio Kanhaimin",
+      "jumlahKursi": "260",
+      "id": 4
+    }
+  ],
+  "movies": [
+    {
+      "title": "Star Wars",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjQ1MzcxNjg4N15BMl5BanBnXkFtZTgwNzgwMjY4MzI@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "imgHeader": "https://id.bmscdn.com/events/showcasesynopsis/ET00005679.jpg",
+      "sinopsis": "Resistance yang selamat sekali lagi akan menghadapi First Order dalam sebuah saga final yang akan menentukan nasib mereka.",
+      "sutradara": "J.J. Abrams",
+      "genre": "Action, Adventure, Fantasy",
+      "durasi": "151",
+      "produksi": "RANS ENTERTAINMENT",
+      "jadwal": [
+        12,
+        14,
+        16,
+        18,
+        20
+      ],
+      "trailer": "https://www.youtube.com/embed/8Qn_spdM5Zg",
+      "studioId": "3",
+      "id": 2
+    },
+    {
+      "title": "Ford v Ferrari ",
+      "image": "https://media.21cineplex.com/webcontent/gallery/pictures/1572858859730_287x421.jpg",
+      "imgHeader": "https://id.bmscdn.com/events/showcasesynopsis/ET00007097.jpg",
+      "sinopsis": "2 pemenang Academy Award, Matt Damon dan Christian Bale  Miles (Bale), seorang pembalap Inggris yang tak kenal takut olehnya.",
+      "sutradara": "James Mangold",
+      "genre": "Action, Biography, Drama",
+      "durasi": "121",
+      "produksi": "RANS ENTERTAINMENT",
+      "jadwal": [
+        12,
+        16
+      ],
+      "trailer": "https://www.youtube.com/embed/zyYgDtY2AMY",
+      "studioId": "2",
+      "id": 4
+    },
+    {
+      "title": "Knives Out",
+      "image": "https://id.bmscdn.com/events/Large/ET00007241.jpg",
+      "imgHeader": "https://id.bmscdn.com/events/showcasesynopsis/ET00007241.jpg",
+      "sinopsis": "Harlan Thrombey (Christopher Plummer) adalah penulis novel misteri yang kaya raya. Di ulang tahunnya yang ke-85 ia tewas secara misterius.  Keluarga Harlan yang datang berkumpul kini menjadi tersangka. Mereka dicurigai oleh Detektif terkenal Benoit Blanc (Daniel Craig) yang datang untuk menyelidiki insiden ini.",
+      "sutradara": "Rian Johnson",
+      "genre": "Comedy, Crime, Drama",
+      "durasi": "120",
+      "produksi": "RANS ENTERTAINMENT",
+      "jadwal": [
+        12,
+        14,
+        18,
+        20,
+        22
+      ],
+      "trailer": "https://www.youtube.com/embed/sL-9Khv7wa4",
+      "studioId": "1",
+      "id": 5
+    },
+    {
+      "title": "Cats",
+      "image": "https://media.21cineplex.com/webcontent/gallery/pictures/157542998785544_287x421.jpg",
+      "imgHeader": "https://id.bmscdn.com/events/showcasesynopsis/ET00007225.jpg",
+      "sinopsis": "Sebuah adaptasi drama musikal yang kisahnya terinspirasi dari puisi Old Possums Book of Practical Cats karya T.S. Elliot. Bercerita tentang suku kucing bernama Jellicle yang pada suatu malam, mereka memutuskan untuk mengubah takdir hidupnya menjadi lebih baik dengan melewati Heaviside Layer.",
+      "sutradara": "Aris ",
+      "genre": "Animasi",
+      "durasi": "132",
+      "produksi": "RANS ENTERTAINMENT",
+      "jadwal": [
+        18,
+        20
+      ],
+      "trailer": "https://www.youtube.com/embed/FtSd844cI7U",
+      "studioId": "3",
+      "id": 8
+    },
+    {
+      "title": "Black Christmas",
+      "image": "https://id.bmscdn.com/events/Large/ET00007007.jpg",
+      "imgHeader": "https://id.bmscdn.com/events/showcasesynopsis/ET00007007.jpg",
+      "sinopsis": "BLACK CHRISTMAS merupakan film thriller yang disutradarai oleh Sophia Takal. Sekelompok mahasiswi di ikuti oleh orang asing, saat sedang liburan Natal mereka. Itu sampai seorang mahasiswi muda menemukan bahwa ada pembunuh dari perguruan tinggi.  Dibintangi oleh Imogen Poots, Cary Elwes, Brittany O'Grady. Beli tiket bioskop online kamu di BookMyShow.",
+      "sutradara": "Sophia Takal",
+      "genre": "Drama",
+      "durasi": "123",
+      "produksi": "RANS ENTERTAINMENT",
+      "jadwal": [
+        18,
+        20
+      ],
+      "trailer": "https://www.youtube.com/embed/DH-9_6Eg-qc",
+      "studioId": "2",
+      "id": 10
+    },
+    {
+      "title": "Dabangg 3",
+      "image": "https://id.bmscdn.com/events/Large/ET00007254.jpg",
+      "imgHeader": "https://id.bmscdn.com/events/showcasesynopsis/ET00007254.jpg",
+      "sinopsis": "DABANGG 3 merupakan film aksi India yang disutradarai oleh Prabhu Deva. Inspektur polisi yang selalu beruntung, danpemberani, Chulbul Pandey, kembali lagi untuk menghadapi Bali Singh, seorang penjahat yang mengganggu, dan merusak hidup orang banyak.\n\nDibintangi oleh Salman Khan, Arbaaz Khan, Nikhil Dwivedi. Beli tiket bioskop online kamu di BookMyShow.",
+      "sutradara": "Prabhu Deva",
+      "genre": "Action",
+      "durasi": "203",
+      "produksi": "RANS ENTERTAINMENT",
+      "jadwal": [],
+      "trailer": "https://www.youtube.com/embed/-AJ7cLi1Jfk",
+      "studioId": "1",
+      "id": 11
+    }
+  ],
+  "orders": [
+    {
+      "userId": 4,
+      "movieId": 2,
+      "totalharga": 25000,
+      "jadwal": 12,
+      "bayar": true,
+      "id": 1
+    },
+    {
+      "userId": 4,
+      "movieId": 5,
+      "totalharga": 50000,
+      "jadwal": 12,
+      "bayar": true,
+      "id": 2
+    },
+    {
+      "userId": 4,
+      "movieId": 8,
+      "totalharga": 25000,
+      "jadwal": 12,
+      "bayar": true,
+      "id": 3
+    },
+    {
+      "userId": 5,
+      "movieId": 5,
+      "totalharga": 50000,
+      "jadwal": 12,
+      "bayar": true,
+      "id": 4
+    },
+    {
+      "userId": 5,
+      "movieId": 2,
+      "totalharga": 50000,
+      "jadwal": 12,
+      "bayar": true,
+      "id": 5
+    },
+    {
+      "userId": 4,
+      "movieId": 5,
+      "totalharga": 50000,
+      "jadwal": 12,
+      "bayar": true,
+      "id": 6
+    },
+    {
+      "userId": 4,
+      "movieId": 11,
+      "totalharga": 50000,
+      "jadwal": 12,
+      "bayar": true,
+      "id": 7,
+      "tanggal": "18/12/2019"
+    },
+    {
+      "userId": 4,
+      "movieId": 5,
+      "totalharga": 25000,
+      "jadwal": 12,
+      "bayar": false,
+      "id": 8
+    }
+  ],
+  "ordersDetails": [
+    {
+      "orderId": 1,
+      "seat": 0,
+      "row": 0,
+      "id": 1
+    },
+    {
+      "orderId": 2,
+      "seat": 9,
+      "row": 0,
+      "id": 2
+    },
+    {
+      "orderId": 2,
+      "seat": 10,
+      "row": 0,
+      "id": 3
+    },
+    {
+      "orderId": 3,
+      "seat": 10,
+      "row": 0,
+      "id": 4
+    },
+    {
+      "orderId": 4,
+      "seat": 4,
+      "row": 0,
+      "id": 5
+    },
+    {
+      "orderId": 4,
+      "seat": 5,
+      "row": 0,
+      "id": 6
+    },
+    {
+      "orderId": 5,
+      "seat": 5,
+      "row": 0,
+      "id": 7
+    },
+    {
+      "orderId": 5,
+      "seat": 6,
+      "row": 0,
+      "id": 8
+    },
+    {
+      "orderId": 6,
+      "seat": 13,
+      "row": 0,
+      "id": 9
+    },
+    {
+      "orderId": 6,
+      "seat": 14,
+      "row": 0,
+      "id": 10
+    },
+    {
+      "orderId": 7,
+      "seat": 11,
+      "row": 0,
+      "id": 11
+    },
+    {
+      "orderId": 7,
+      "seat": 10,
+      "row": 0,
+      "id": 12
+    },
+    {
+      "orderId": 8,
+      "seat": 17,
+      "row": 0,
+      "id": 13
+    }
+  ],
+  "transactions": [
+    {
+      "tanggal": "18-11-2019",
+      "totalharga": "Rp. 25,000,00",
+      "userId": 4,
+      "totalqty": 1,
+      "id": 1
+    },
+    {
+      "tanggal": "18-11-2019",
+      "totalharga": "Rp. 75,000,00",
+      "userId": 4,
+      "totalqty": 2,
+      "id": 2
+    },
+    {
+      "tanggal": "18-11-2019",
+      "totalharga": "Rp. 100,000,00",
+      "userId": 5,
+      "totalqty": 2,
+      "id": 3
+    },
+    {
+      "tanggal": "18-11-2019",
+      "totalharga": "Rp. 50,000,00",
+      "userId": 4,
+      "totalqty": 1,
+      "id": 4
+    }
+  ],
+  "transactionsDetails": [
+    [
+      {
+        "userId": 4,
+        "movieId": 2,
+        "totalharga": 25000,
+        "jadwal": 12,
+        "bayar": true,
+        "id": 1
+      }
+    ],
+    [],
+    [
+      {
+        "userId": 4,
+        "movieId": 2,
+        "totalharga": 25000,
+        "jadwal": 12,
+        "bayar": true,
+        "id": 1
+      },
+      {
+        "userId": 4,
+        "movieId": 5,
+        "totalharga": 50000,
+        "jadwal": 12,
+        "bayar": true,
+        "id": 2
+      },
+      {
+        "userId": 4,
+        "movieId": 8,
+        "totalharga": 25000,
+        "jadwal": 12,
+        "bayar": true,
+        "id": 3
+      }
+    ]
+  ]
+}
